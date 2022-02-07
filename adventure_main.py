@@ -33,7 +33,7 @@ if ques_first == "right":
 elif ques_first == "left":
   ques_first = input('You\'ve come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across.')
   # print(ques_first)
-  if ques_first == "swinm":
+  if ques_first == "swim":
     print("You get attacked by an angry trout. Game Over.")
   elif ques_first == "wait":
      ques_first = input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?")
