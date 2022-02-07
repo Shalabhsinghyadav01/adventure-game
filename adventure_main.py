@@ -31,7 +31,7 @@ ques_first = input('You\'re at a crossroad. Where do you want to go? Type "left"
 if ques_first == "left":
   ques_secound = input('You\'ve come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across.').lower()
   if ques_secound == "wait":
-    ques_third = input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?").loweer()
+    ques_third = input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?").lower()
     if ques_third == "red":
       print("It's a room full of fire. Game Over.")
     elif ques_third == "blue":
@@ -45,6 +45,7 @@ if ques_first == "left":
     print("You get attacked by an angry trout. Game Over.")
 else:
   print("You fell into a hole. Game Over.")
+  # this was the previous code i have written by myself then i thaught the code(present) is more efficient 
 #   # print(ques_first)
 #   print("You fell into a hole. Game Over.")
 # elif ques_first == "left":
